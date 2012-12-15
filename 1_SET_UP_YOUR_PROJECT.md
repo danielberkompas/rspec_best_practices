@@ -30,7 +30,8 @@ See more details about these gems on their Github repos:
 
 1. Remove the `/test` directory from your app.  You won't be needing it anymore, all your tests now will live under `/spec`.
 2. Change your Guardfile to use fuubar.
-```
+
+```ruby
 guard 'rspec', cli: "--format Fuubar --color", version: 2 do
   # Don't touch the rest...
 end
