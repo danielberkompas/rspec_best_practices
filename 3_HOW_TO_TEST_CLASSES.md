@@ -8,8 +8,7 @@ require "spec_helper" # Pulls in all of Rspec's goodness. The rest of your files
 describe ClassName do
 
   # Describe each method on your class.
-  # Note that the `describe` call limits the scope
-  # of everything inside it.
+  # Note that the `describe` call limits the scope of everything inside it.
   
   # This is how you describe a "class method", defined in your class like this:
   # def self.class_method
@@ -34,16 +33,18 @@ describe ClassName do
   #   ClassName#instance_method failed ...
   #
   describe "#instance_method" do
-    # Do setup for the method with "let" syntax
+    # Do setup for the method with "let" syntax. Your method is
+    # going to need an instance of your class to operate on, for
+    # example.
+    let(:class_name) { ClassName.new }
     let(:some_var) { some_value }
     # etc...
     
     # Set the subject
-    subject { some_var }
+    subject { class_name }
     
-    # Run any additional setup you need
-    # `before` runs before every "it" block in
-    # the current scope
+    # Run any additional setup you need. `before` runs before every 
+    # "it" block in the current scope.
     before { do_some_more_setup }
     
     # When you're testing expectations like should_receive, 
