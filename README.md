@@ -4,5 +4,5 @@ This repo is intended to be a collection of documents describing how best to tes
 
 ## Index
 
-1. [Set Up Your Project](/blob/master/1_SET_UP_YOUR_PROJECT.md)
-2. [Testing Process](/blob/master/2_TESTING_PROCESS.md)
+1. [Set Up Your Project](/danielberkompas/rspec_best_practices/blob/master/1_SET_UP_YOUR_PROJECT.md)
+2. [Testing Process](/danielberkompas/rspec_best_practices/blob/master/2_TESTING_PROCESS.md)
