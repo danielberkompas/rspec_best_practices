@@ -80,3 +80,6 @@ describe ClassName do
 end
 ```
 
+## How Thorough Should I Be?
+
+Start by being **very** thorough.  Test all the methods in your class.  Once you get familiar with the toolchain and the rspec syntax, you can start easing off and only test the truly important methods.
